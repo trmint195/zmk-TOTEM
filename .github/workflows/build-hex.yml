@@ -217,13 +217,13 @@ jobs:
           fi
           # 2. Lấy file .hex (Dành cho nạp qua mạch nạp chuyên dụng hoặc một số công cụ nạp khác)
           if [ -f "${{ env.build_dir }}/zephyr/zmk.hex" ]; then
-            cp "${{ env.build_dir }}/zephyr/zephyr.hex" "${{ env.build_dir }}/artifacts/${{ env.artifact_name }}.hex"
+            cp "${{ env.build_dir }}/zephyr/zmk.hex" "${{ env.build_dir }}/artifacts/${{ env.artifact_name }}.hex"
             echo "Copied .hex artifact"
           fi
 
           # 3. Lấy file .bin (Dành cho nạp trực tiếp vào bộ nhớ flash)
           if [ -f "${{ env.build_dir }}/zephyr/zmk.bin" ]; then
-            cp "${{ env.build_dir }}/zephyr/zephyr.bin" "${{ env.build_dir }}/artifacts/${{ env.artifact_name }}.bin"
+            cp "${{ env.build_dir }}/zephyr/zmk.bin" "${{ env.build_dir }}/artifacts/${{ env.artifact_name }}.bin"
             echo "Copied .bin artifact"
           fi
       - name: Archive (${{ env.display_name }})
