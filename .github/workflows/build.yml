@@ -1,5 +1,11 @@
+name: Build
+
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Trỏ vào file cục bộ trong repo của bạn
+    uses: ./.github/workflows/build-hex.yml
+    with:
+      # Bạn vẫn có thể truyền các tham số như bình thường
+      archive_name: "my-custom-firmware"
