@@ -18,7 +18,7 @@ manifest:
       revision: feat/new-status-screens          
     - name: zmk-module-xiaord
       remote: kien242                    
-      revision: custom-board-kien242                                                 
+      revision: kien242-patch-1                                               
   self:
     path: config
     
