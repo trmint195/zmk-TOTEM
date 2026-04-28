@@ -17,8 +17,8 @@ manifest:
       remote: carrefinho                         
       revision: feat/new-status-screens          
     - name: zmk-module-xiaord
-      remote: felixJR123                    
-      revision: main                                            
+      remote: kien242                    
+      revision: kien242-patch-1                                               
   self:
     path: config
     
