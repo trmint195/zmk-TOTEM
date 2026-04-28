@@ -3,8 +3,8 @@
 include:
   # totem
   - board: nice_nano//zmk
-    shield: xiaord totem_central_dongle
-    artifact-name: home_totem_central_dongle
+    shield: xiaord sample_split_dongle
+    artifact-name: home_sample_split_dongle_xiaord
   #   #cmake-args: -DCONFIG_ZMK_STUDIO=y
   #   #snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
