@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/carrefinho   
     - name: felixJR123
       url-base: https://github.com/felixJR123
+    - name: kien242
+      url-base: https://github.com/kien242
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,9 +16,9 @@ manifest:
     - name: prospector-zmk-module               
       remote: carrefinho                         
       revision: feat/new-status-screens          
-    - name: snake-dongle-modified
-      remote: felixJR123                    
-      revision: zephyr-4.1                                                 
+    - name: zmk-module-xiaord
+      remote: kien242                    
+      revision: custom-board-kien242                                                 
   self:
     path: config
     

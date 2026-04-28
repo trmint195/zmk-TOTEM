@@ -3,33 +3,9 @@
 include:
   # totem
   - board: nice_nano//zmk
-    shield: totem_central_dongle dongle_display
+    shield: xiaord totem_central_dongle
     artifact-name: home_totem_central_dongle
   #   #cmake-args: -DCONFIG_ZMK_STUDIO=y
   #   #snippet: studio-rpc-usb-uart
-  - board: xiao_ble//zmk
-    shield: totem_central_left
-    artifact-name: home_totem_central_left
-    #cmake-args: -DCONFIG_ZMK_STUDIO=y
-    #snippet: studio-rpc-usb-uart
-  - board: xiao_ble//zmk
-    shield: totem_peripheral_left
-    artifact-name: home_totem_peripheral_left
-  - board: xiao_ble//zmk
-    shield: totem_peripheral_right
-    artifact-name: home_totem_peripheral_right
-  # - board: nice_nano//zmk
-  #   shield: totem_central_snake snake_adapter
-  #   artifact-name: home_totem_snake_dongle
-  #   #cmake-args: -DCONFIG_ZMK_STUDIO=y
-  #   #snippet: studio-rpc-usb-uart
-  - board: xiao_ble//zmk
-    shield: totem_central_prospector prospector_adapter
-    artifact-name: home_totem_prospector_dongle
-  # #   #cmake-args: -DCONFIG_ZMK_STUDIO=y
-  # #   #snippet: studio-rpc-usb-uart
-  # reset
   - board: nice_nano//zmk
-    shield: settings_reset
-  - board: xiao_ble//zmk
     shield: settings_reset
