@@ -2,7 +2,7 @@
 ---
 include:
   # totem
-  - board: nice_nano//zmk
+  - board: xiao_ble//zmk
     shield: xiaord sample_split_dongle
     artifact-name: home_sample_split_dongle_xiaord
   #   #cmake-args: -DCONFIG_ZMK_STUDIO=y
